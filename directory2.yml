@@ -1,0 +1,7 @@
+- name: Tower Directory
+  hosts: all
+  tasks:
+    - name: Details
+      debug:
+        msg: | 
+          "Host 10.42.0.15 is a Tower server"
